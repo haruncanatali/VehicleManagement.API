@@ -231,10 +231,5 @@ namespace VehicleManagement.API.DataAccess.FakeDB
             Cars.Add((Car)car2);
             Buses.Add((Bus)bus);
         }
-
-        public static void Deneme()
-        {
-            var d = Cars;
-        }
     }
 }

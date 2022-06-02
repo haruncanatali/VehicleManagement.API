@@ -229,6 +229,7 @@ namespace VehicleManagement.API.DataAccess.FakeDB
             Cars.Add((Car)car);
             Cars.Add((Car)car1);
             Cars.Add((Car)car2);
+            Buses.Add((Bus)bus);
         }
 
         public static void Deneme()

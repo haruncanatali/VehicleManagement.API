@@ -67,9 +67,11 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                 }
             };
 
+            carID++;
+
             Vehicle car1 = new Car
             {
-                Id = carID+1,
+                Id = carID,
                 Color = "Blue",
                 HP = 255,
                 Headlights = new List<Headlight>
@@ -120,9 +122,11 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                 }
             };
 
+            carID++;
+
             Vehicle car2 = new Car
             {
-                Id = carID + 2,
+                Id = carID,
                 Color = "Orange",
                 HP = 255,
                 Headlights = new List<Headlight>
@@ -173,9 +177,11 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                 }
             };
 
+            carID++;
+
             Vehicle bus = new Bus()
             {
-                Id = carID+3,
+                Id = carID,
                 Color = "Blue",
                 NumberOfSeats = 55,
                 Headlights = new List<Headlight>

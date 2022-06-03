@@ -13,10 +13,10 @@ namespace VehicleManagement.API.DataAccess.FakeDB
         public static void FakeDB()
         {
             Random rnd = new Random();
-            var carID = 1;
+            var vehicleId = 1;
             Vehicle car = new Car
             {
-                Id = carID,
+                Id = vehicleId,
                 Color = "Blue",
                 HP = 256,
                 Headlights = new List<Headlight>
@@ -24,22 +24,22 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 },
                 Wheels = new List<Wheel>
@@ -47,31 +47,31 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 }
             };
 
-            carID++;
+            vehicleId++;
 
             Vehicle car1 = new Car
             {
-                Id = carID,
+                Id = vehicleId,
                 Color = "Blue",
                 HP = 255,
                 Headlights = new List<Headlight>
@@ -79,22 +79,22 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 },
                 Wheels = new List<Wheel>
@@ -102,31 +102,31 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 }
             };
 
-            carID++;
+            vehicleId++;
 
             Vehicle car2 = new Car
             {
-                Id = carID,
+                Id = vehicleId,
                 Color = "Orange",
                 HP = 255,
                 Headlights = new List<Headlight>
@@ -134,22 +134,22 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 },
                 Wheels = new List<Wheel>
@@ -157,31 +157,31 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 }
             };
 
-            carID++;
+            vehicleId++;
 
             Vehicle bus = new Bus()
             {
-                Id = carID,
+                Id = vehicleId,
                 Color = "Blue",
                 NumberOfSeats = 55,
                 Headlights = new List<Headlight>
@@ -189,22 +189,22 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Headlight
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 },
                 Wheels = new List<Wheel>
@@ -212,22 +212,22 @@ namespace VehicleManagement.API.DataAccess.FakeDB
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     },
                     new Wheel
                     {
                         Id = rnd.Next(1,1000000),
-                        VehicleId = carID
+                        VehicleId = vehicleId
                     }
                 }
             };
